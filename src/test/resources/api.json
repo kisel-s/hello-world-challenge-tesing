@@ -1,0 +1,22 @@
+{
+  "newClientPost": {
+    "url": "/challenge/clients",
+    "body": "{\"fullName\":\"%s\",\"username\":\"%s\"}",
+    "response": "{\"resultCode\":\"Ok\"}"
+  },
+  "loginPost": {
+    "url": "/challenge/login",
+    "body": "{\"username\":\"%s\"}",
+    "response": "{\"resultCode\":\"Ok\"}"
+  },
+  "logoutPost": {
+    "url": "/challenge/logout",
+    "body": "{\"username\":\"%s\"}",
+    "response": "{\"resultCode\":\"Ok\"}"
+  },
+  "helloGet": {
+    "url": "/challenge/hello",
+    "body": null,
+    "response": "{\"resultCode\":\"Ok\",\"message\":\"Hello, %s!\"}"
+  }
+}

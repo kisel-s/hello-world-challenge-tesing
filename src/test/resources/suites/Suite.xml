@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Smoke API Tests" verbose="1" thread-count="4">
+    <test name="Receive Hello message from Challenge App">
+        <classes>
+            <class name="helloworldchallenge.tests.api.ReceiveHelloMessageFromChallengeAppTest"/>
+        </classes>
+    </test>
+</suite>
