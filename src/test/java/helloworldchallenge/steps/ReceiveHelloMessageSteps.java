@@ -27,6 +27,7 @@ public class ReceiveHelloMessageSteps {
         softAssert.assertAll();
     }
 
+    @Step("Receive hello message for unauthorized user")
     public static void receiveHelloMessageForUnauthorized(User user) {
         Header header = new BasicHeader(CustomHeader.X_SESSION_ID.getValue(), user.getSessionId());
         RestClientResponse response = RestApiService.runGetRequest(BaseEntity.getPath("helloGet"), header);
