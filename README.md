@@ -24,7 +24,7 @@ clean test -Dsuite=${suite}
 
 You can find all the tests in the src/test/java/helloworldchallenge/tests folder.
 For now we have tests for the following functionality:
-* API. Path to the tests - src/test/java/helloworldchallenge/tests. Folder includes tests that used for API testing
+* API. Path to the tests - src/test/java/helloworldchallenge/tests/api. Folder includes tests that used for API testing
 
 ### Supported OS
 
